@@ -4,12 +4,6 @@ AVPlayerViewController does not pause on live stream
 
 · Open radar: https://openradar.appspot.com/35361605
 
-# Expected
-The progress indicator points directly to the live position without any jump or flash on the view
-
-# Version:
-tvOS 10.2
-
 # Area
 AV Playback
 
