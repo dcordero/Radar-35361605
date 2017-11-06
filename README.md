@@ -15,7 +15,7 @@ Attached project which plays a live stream.
 
 When running the project in tvOS 10 the stream can be paused using the Play/Pause button in Siri Remote.
 
-When running the same project in tvOS 11 can not be paused. The following error appears in the console log.
+When running the same project in tvOS 11, the stream can NOT be paused. The following error appears in the console log.
 
 ```
 2017-11-06 11:09:56.034370+0100 PauseLiveStream[7276:592491] Attachment range (-529.124429,-494.640299) must include 0 for sliding attachment type    >   {530.12445068359375, 4.9999995231628418}
