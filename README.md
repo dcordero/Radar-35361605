@@ -23,6 +23,7 @@ When running the same project in tvOS 11, the stream can NOT be paused. The foll
 ```
 
 Notes:
+
 AVPlayerViewController does not actually allow pausing when playing a live stream with a sliding window smaller than 76 seconds.
 
 # Expected Results
