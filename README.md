@@ -22,9 +22,12 @@ When running the same project in tvOS 11, the stream can NOT be paused. The foll
 2017-11-06 11:09:56.380347+0100 PauseLiveStream[7276:592534] []  >>> playerasync_runAsynchronousCommandOnQueue: Command 23 returned -12784; this async error will be discarded
 ```
 
-Notes:
+## Notes
 
 AVPlayerViewController does not actually allow pausing when playing a live stream with a sliding window smaller than 76 seconds.
+
+- This stream does NOT pause: https://demo-hls5-live.zahs.tv/sd/master.m3u8?timeshift=75
+- This stream pauses: https://demo-hls5-live.zahs.tv/sd/master.m3u8?timeshift=76
 
 # Expected Results
 The stream pauses when using the Play/Pause button in Siri Remote
